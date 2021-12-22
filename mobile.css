@@ -1,0 +1,47 @@
+@media only screen and (max-width: 375px) {
+  .header-nav, .header-right {
+    display: none;
+  }
+  .desctop-only {
+    display: none;
+  }
+  .for-mobile {
+    display: block;
+  }
+  .header-logo {
+    font-size: 22px;
+    line-height: 26px;
+    padding: 18px 20px;
+  }
+  .header-container {
+    min-height: 90px;
+  }
+  .section-article {
+    padding: 56px 35px 76px;
+    max-width: 332px;
+    width: 100%;
+    margin-right: 21px;
+  }
+  .section-title {
+    font-size: 28px;
+  }
+  .section-desc {
+    font-size: 16px;
+    margin-top: 31px;
+  }
+  .section-second {
+    padding: 38px 17px 65px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-second-card {
+    width: 341px;
+    height: 300px;
+  }
+  .section-second-card img {
+    object-fit: fill;
+  }
+  .footer {
+    padding: 0 17px;
+  }
+}
